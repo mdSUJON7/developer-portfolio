@@ -15,6 +15,7 @@ h1 {
 
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 
 .height {
@@ -23,7 +24,7 @@ section {
 }
 
 .height img {
-  width: 300px;
+  width: 400px;
 }
 
 .button {
@@ -36,4 +37,10 @@ section {
 
 .top-corner {
   background-image: url(images/top-banner.png);
+}
+
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
