@@ -9,13 +9,17 @@ h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+h2 {
+  font-size: 45px;
+}
+
 .ball {
   color: rgb(69, 218, 69);
 }
 
-section {
+.flexible-container {
   display: flex;
-  margin-bottom: 150px;
+  margin-bottom: 1px;
 }
 
 .height {
@@ -43,4 +47,29 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.experience-unit {
+  box-shadow: 10px 10px 60px rgb(131, 137, 132);
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  border-left: 10px solid rgb(168, 209, 104);
+}
+
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+
+footer p {
+  text-align: center;
+  text-decoration: dotted;
+  text-shadow: 2px;
+  margin: 50px;
 }
